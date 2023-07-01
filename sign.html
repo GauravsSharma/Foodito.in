@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bables Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+    <script src="https://kit.fontawesome.com/c927318385.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="container4">
+        <nav>
+            <img  class="logo"src="images/logo.png" alt="">
+            <i class="fa-solid fa-bars" onclick = "opennav()"></i>
+            <ul id = "sidemenu">
+                <i class="fa-sharp fa-solid fa-square-xmark " onclick="closenav()"></i>
+                <li><a href="index.html" >Home</a></li>
+                <li><a  href="about.html">About Us</a></li>
+                <li><a href="Items.html">Blog</a></li>
+                <li><a class="active" href="sign.html">Sign in</a></li>
+            </ul>
+        </nav>
+            <div class="cnnt">
+                <h3>Login</h3>
+                <div class="form-control">
+                    <input type="value" required="">
+                    <label>
+                        <span style="transition-delay:0ms">U</span><span style="transition-delay:50ms">s</span><span style="transition-delay:100ms">e</span><span style="transition-delay:150ms">r</span><span style="transition-delay:200ms">n</span><span style="transition-delay:250ms">a</span><span style="transition-delay:300ms">m</span><span style="transition-delay:350ms">e</span>
+                    </label>
+                </div>
+                <div class="form-control">
+                    <input type="value" required="">
+                    <label>
+                        <span style="transition-delay:0ms">E</span><span style="transition-delay:50ms">-m</span><span style="transition-delay:100ms">a</span><span style="transition-delay:150ms">i</span><span style="transition-delay:200ms">l</span>
+                    </label>
+                </div>
+                <div class="form-control">
+                    <input type="value" required="">
+                    <label>
+                        <span style="transition-delay:0ms">P</span><span style="transition-delay:50ms">a</span><span style="transition-delay:100ms">s</span><span style="transition-delay:150ms">s</span><span style="transition-delay:200ms">w</span><span style="transition-delay:250ms">o</span><span style="transition-delay:300ms">r</span><span style="transition-delay:350ms">d</span>
+                    </label>
+                </div>
+                <button>Submit</button>
+            </div>
+            <!-- <div id="footer">Copyright &copy; reserved by Foodito.io.<br>Made with <i class="fa-solid fa-heart"></i> by Gaurav Sharma.</div> -->
+        <section id="foot">
+             <div class="head"><img  class="logo2"src="images/logo.png" alt=""></div>
+             <div class="main">
+                <div class="about">
+                    <h3 class="about-fo">ABOUT FOODITO</h3>
+                    <p>Who We Are</p>
+                    <p>Blog</p>
+                    <p>Work With Us</p>
+                    <p>Investor Relations</p>
+                    <p>Contact Us</p>
+                </div>
+                <div class="about">
+                    <h3 class="about-fo">FOMOVERSE</h3>
+                    <p>Foodito</p>
+                    <p>Blinkit</p>
+                    <p>Feeding India</p>
+                    <p>Hyperpure</p>
+                    <p>FooditoLand</p>
+                </div>
+                <div class="restro">
+                    <h3 class="about-restro">ABOUT RESTRORENT</h3>
+                    <p>Partner with us</p>
+                    <p>Apps for you</p>
+                   <h3 class="another">FOR ENTERPRISES</h3>
+                    <p>Foodito for enterprises</p>
+                </div>
+                <div class="learn">
+                    <h3 class="about-fo">LEARN MORE</h3>
+                    <p>Privacy</p>
+                    <p>Security</p>
+                    <p>Terms</p>
+                    <p>Sitemap</p>
+                </div>
+                <div class="learn">
+                    <h3>SOCIAL LINKS</h3>
+                    <div class="icon">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                    <img src="images/foot-img1.webp" alt="">
+                    <img src="images/foot-img2.webp" alt="">
+                </div>
+             </div><br>
+             <hr>
+             <div class="min-foot">
+                   <p>All right reserved by &copy; Foodito, developed by <span>GAURAV SHARMA</span></p>
+             </div>
+        </section>
+    </div>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function opennav() {
+            sidemeu.style.right = "0";
+
+        }
+        function closenav() {
+            sidemeu.style.right = "-100%";
+
+        }
+    </script>
+</body>
+
+</html>

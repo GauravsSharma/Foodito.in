@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bables Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+    <script src="https://kit.fontawesome.com/c927318385.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div id="container3">
+        <nav>
+            <img  class="logo"src="images/logo.png" alt="">
+            <i class="fa-solid fa-bars" onclick = "opennav()"></i>
+            <ul id = "sidemenu">
+                <i class="fa-solid fa-xmark" onclick="closenav()"></i>
+                <li><a href="index.html" >Home</a></li>
+                <li><a class="active" href="about.html">About Us</a></li>
+                <li><a href="Items.html">Blog</a></li>
+                <li><a href="sign.html">Sign in</a></li>
+            </ul>
+        </nav>
+        <section class="about">
+           <div class="about-info">
+            <div class="about-txt">
+                <h2>Who We Are ?</h2>
+                <p>Launched in 2010, Our technology platform connects customers, restaurant partners and delivery partners, serving their multiple needs. Customers use our platform to search and discover restaurants, read and write customer generated reviews and view and upload photos, order food delivery, book a table and make payments while dining-out at restaurants. On the other hand, we provide restaurant partners with industry-specific marketing tools which enable them to engage and acquire customers to grow their business while also providing a reliable and efficient last mile delivery service. We also operate a one-stop procurement solution, Hyperpure, which supplies high quality ingredients and kitchen products to restaurant partners. We also provide our delivery partners with transparent and flexible earning opportunities.</p>
+            </div>
+           </div> 
+        </section>
+        <section class="blog">
+            <h2>From our <span>blogs</span></h2>
+            <p>Explore our blog for insightful articles, personal reflections, impactful resources, and ideas that inspire us at <span>Foodito</span></p>
+            <div class="blog-div">
+                <div class="excon1 bc-white">
+                    <div class="imag">
+                     <img src="images/about-blog1.png" alt="">
+                    </div>
+                    <div class="discrip">
+                        <h4>Explained: How Zomato Handles 100....</h4>
+                        <p>A three-part series that covers the optimisation techniques used to scale Zomato’s search system in order to handle increased data and user traffic.</p>   
+                 </div>
+                 </div>
+                 <div class="excon1 bc-white">
+                     <div class="imag"><img src="images/about-blog2.jpg" alt=""></div>
+                     <div class="discrip">
+                        <h4>Explained: How Zomato Handles 100....</h4>
+                        <p>A three-part series that covers the optimisation techniques used to scale Zomato’s search system in order to handle increased data and user traffic.</p>
+                 </div>
+                </div>
+                 <div class="excon1 bc-white">
+                     <div class="imag"><img src="images/about-blog3.jpg" alt=""></div>
+                     <div class="discrip">
+                       <h4>Explained: How Zomato Handles 100....</h4>
+                       <p>A three-part series that covers the optimisation techniques used to scale Zomato’s search system in order to handle increased data and user traffic.</p>
+                 </div>
+                </div>
+                 <div class="excon1 bc-white">
+                     <div class="imag"><img src="images/about-blog4.png" alt=""></div>
+                     <div class="discrip">
+                        <h4>Explained: How Zomato Handles 100....</h4>
+                       <p>A three-part series that covers the optimisation techniques used to scale Zomato’s search system in order to handle increased data and user traffic.</p>
+                 </div>
+                </div>
+            </div>
+        </section>
+        <section id="foot">
+            <img  class="logo2"src="images/logo.png" alt="">
+             <div class="main">
+                <div class="about">
+                    <h3 class="about-fo">ABOUT FOODITO</h3>
+                    <p>Who We Are</p>
+                    <p>Blog</p>
+                    <p>Work With Us</p>
+                    <p>Investor Relations</p>
+                    <p>Contact Us</p>
+                </div>
+                <div class="about">
+                    <h3 class="about-fo">FOMOVERSE</h3>
+                    <p>Foodito</p>
+                    <p>Blinkit</p>
+                    <p>Feeding India</p>
+                    <p>Hyperpure</p>
+                    <p>FooditoLand</p>
+                </div>
+                <div class="restro">
+                    <h3 class="about-restro">ABOUT RESTRORENT</h3>
+                    <p>Partner with us</p>
+                    <p>Apps for you</p>
+                   <h3 class="another">FOR ENTERPRISES</h3>
+                    <p>Foodito for enterprises</p>
+                </div>
+                <div class="learn">
+                    <h3 class="about-fo">LEARN MORE</h3>
+                    <p>Privacy</p>
+                    <p>Security</p>
+                    <p>Terms</p>
+                    <p>Sitemap</p>
+                </div>
+                <div class="learn">
+                    <h3>SOCIAL LINKS</h3>
+                    <div class="icon">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                    <img src="images/foot-img1.webp" alt="">
+                    <img src="images/foot-img2.webp" alt="">
+                </div>
+             </div><br>
+             <hr>
+             <div class="min-foot">
+                   <p>All right reserved by &copy; Foodito, developed by <span>GAURAV SHARMA</span></p>
+             </div>
+        </section>
+    </div>
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+        function opennav() {
+            sidemeu.style.right = "0";
+
+        }
+        function closenav() {
+            sidemeu.style.right = "-200px";
+
+        }
+    </script>
+</body>
+
+</html>
